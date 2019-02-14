@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplo CSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar__menu">
+            <li class="navbar__item"><a href="#about">About</a></li>
+            <li class="navbar__item"><a href="#project">Projects</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="banner" id="about">
+            <header class="wrapper banner__info">
+                <h1>Sobre</h1>
+                <p>Abaixo está um exemplo de uso do flexbox para criação de uma galeria de fotos.</p>
+            </header>
+        </section>
+        <section class="projects wrapper" id="project"> 
+            <h1>Galeria de Fotos com Flexbox</h1>
+            <div class="container"> <!-- CONTAINER É A DIV MÃE, QUE CONTÉM OS ITENS -->
+                <img class="itens" src="./img/nature-forest-trees-fog.jpeg" alt="Floresta">
+                <img class="itens" src="./img/cereals-field-ripe-poppy-70741.jpeg" alt="Closeup de uma rosa">
+                <img class="itens" src="./img/pexels-photo-110854.jpeg" alt="Imagem de estrelas">
+                <img class="itens" src="./img/pexels-photo-139366.jpeg" alt="Céu com nuvens">
+                <img class="itens" src="./img/pexels-photo-1666021.jpeg" alt="Floresta e lago em um dia de sol">
+                <img class="itens" src="./img/pexels-photo-66997.jpeg" alt="Por do sol">
+                <img class="itens" src="./img/pexels-photo-844167.jpeg" alt="Estrada no meio das montanhas">
+                <img class="itens" src="./img/abandoned-forest-hd-wallpaper-34950.jpg" alt="Trilho em meio à floresta">
+            </div>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido para o meetup da {reprograma}.
+    </footer>
+</body>
+</html>
